@@ -8,4 +8,4 @@ use webpack and DOM via js to create
 a restaurant page
 with tabs for menu, contact, about, etc
 
-![majiburg](https://github.com/MK-DlR/resto-page/blob/main/images/majiburg.gif)
+![majiburg](https://github.com/MK-DlR/resto-page/blob/main/majiburg.gif)
