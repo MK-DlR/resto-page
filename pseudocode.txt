@@ -1,0 +1,118 @@
+PROJECT:
+1. create package.json file and set up webpack
+    1a. only set up what's needed
+        - no need for html-loader
+Done
+
+2. create gitignore file
+    2a. containing
+        - node_modules
+        - dist
+Done
+
+3. set up html skeleton inside src/template.html
+    3a. add <header> element that contains
+    3b. <nav>
+    3c. with buttons
+        - home
+        - menu
+        - about
+        - contact
+    3d. add <div id="content">
+        - below <header>
+Done
+
+4. inside of src/index.js
+    4a. write a console.log
+    4b. run npx webpack serve
+    4c. open http://localhost:8080 in browser
+        - to make sure JS is running
+Done
+
+5. inside div#content
+    5a. create homepage
+        - image
+        - slogan
+        - blurb/flavour text
+Done
+
+6. remove everything from inside div#content
+    6a. and re-create by using JS
+        - appending each new element to div#content
+        - once the page is first loaded
+        - write page-load function in own module
+            - and import and call it inside index.js
+Done
+
+7. set up site to use tabbed browsing
+    7a. to access 
+        - menu
+        - locations
+        - contact
+    Done
+    7b. put contents of each tab inside own module
+        - each module will export function 
+        - that creates div element
+        - adds appropriate content
+        - and styles to that element
+        - and then append it to the DOM
+    Done
+    7c. write tab switching logic inside index.js
+        - have event listeners for each buttons
+        - in header navbar
+        - that wipes out current contents of div#content
+        - and then runs correct tab module
+        - to populate with the new contents
+    Done
+    7d. figure out home page content
+    Done
+    7e. allow home page to be reloaded
+        - when home button is clicked
+        - add link to home on header image
+    Done
+Done
+
+8. add actual css styling for page and tabs
+    8a. upload and assign font/s
+    Done
+    8b. menu tab styling
+        - menu should be in column/s
+        Done
+        - some kind of decorative border between items
+        Done
+        - remove link decoration
+        Done
+        - create subcategories of menu
+            - that are linked to at top
+            - and can be jumped to when clicked
+            - burgers, sides, sets
+        Done
+    Done
+    8c. location tab styling
+        - decorative border between location headers
+    Done
+    8d. contact tab styling
+        - decorative border above contact form
+        Done
+        - style contact form
+        Done
+    Done
+    8e. home tab styling
+        - style hours container
+    Done
+    8f. general styling
+        - for base of all pages
+    Done
+    8g. style nav tab buttons
+    Done
+Done
+
+Remember:
+- add sega/rgg studio credits for images
+Done
+- resize images as needed
+Done
+- add contact form on contact page
+Done
+- add "side of Majima" option under sides section
+Done

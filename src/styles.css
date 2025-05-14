@@ -1,0 +1,166 @@
+/* styles.css */
+
+/* fonts */
+@font-face {
+  font-family: 'edoregular';
+  src: url('./fonts/font1/edo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'meta_procond_regular';
+  src: url('./fonts/font2/ffmetaprocondrg-webfont.woff2') format('woff2'),
+       url('./fonts/font2/ffmetaprocondrg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* use edo font for h1 */
+h1 {
+  font-family: 'edoregular', sans-serif;
+  font-size: 4em;
+  color: #F28322;
+  text-shadow:
+    -1px -1px 0 #993d35,
+     1px -1px 0 #993d35,
+    -1px  1px 0 #993d35,
+     1px  1px 0 #993d35,
+     0px  0px 1px #993d35;
+}
+
+/* use procond font for everything else */
+p, div, h2, h3 {
+  font-family: 'meta_procond_regular', sans-serif;
+}
+
+h2, h3 {
+  color: #993d35;
+}
+
+/* UNIVERSAL */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fef7e6;
+  color: #3a1f0f;
+  text-align: center;
+  min-height: 100%;
+}
+
+header {
+  background-color: #f4c6a5;
+}
+
+nav {
+  background-color: #f4ae3f;
+}
+
+button {
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #F28322;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c94542;
+}
+
+.smilelogo {
+  max-height: 200px;
+  width: auto;
+}
+
+.slogan {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#content {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 35px;
+  border: 1px solid #f4c6a5;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #F28322;
+  width: 250px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #993d35;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #F28322;
+}
+
+.credit {
+  font-size: 12px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: -50px;
+  text-align: center;
+}
+
+/* HOME TAB */
+.blurb {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hoursContainer {
+  background-color: #c94542;
+  width: 215px;
+  height: 190px;
+  margin: auto;
+  margin-bottom: 40px;
+  border: thick solid #993d35;
+  color: #fef7e6;
+}
+
+/* MENU TAB */
+.menuContainer {
+  background-color: #ffffff;
+  display: grid;
+}
+
+.burgerContainer,
+.setsContainer,
+.sidesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.questionMarkText {
+  font-size: 135px;
+  display: inline-block;
+}
+
+.questionMarkText:hover {
+  cursor: pointer;
+  color: #fef7e6;
+  text-shadow:
+    -1px -1px 0 #993d35,
+     1px -1px 0 #993d35,
+    -1px  1px 0 #993d35,
+     1px  1px 0 #993d35,
+     0px  0px 1px #993d35;
+}

@@ -1,0 +1,44 @@
+5/14/25:
+
+- Fix footer to bottom
+- Style nav buttons
+- Add color palette
+- Style contact form
+- Add "side of majima" option on menu
+- Add decorative hr to menu and locations tabs
+- Align menu elements
+
+5/13/25:
+
+- Create containers for menu items for future alignment
+- Make clicking logo load the home tab
+- Add content to landing page/home tab
+- Create contact form
+- Create footer div and move credit to it
+- Move smilelogo image and slogan to header
+- Add menu nav links for each section
+- Add menu item names, prices, and descriptions
+- Add fonts
+- Add final locations, images, and info
+
+5/12/25:
+
+- Add location images and names
+- Replace about tab with locations tab
+- Add menu item images to menu page
+- Create tab switching logic within index.js
+- Create about, contact, and menu pages and add DOM content
+- Create new repo
+- Create README
+
+5/10/25:
+
+- Add Sega/RGG studios credit for images
+- Add basic placeholder css styling
+- Create page-load with basic website content via DOM
+- Upload menu item images
+- Create pseudocode to do
+- Upload logo files
+- Set up basic html skeleton and css sheet
+- Create gitignore file
+- Install and set up webpack
